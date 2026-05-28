@@ -18,7 +18,7 @@ app.post('/login',(req,res)=>{
     if(user === passwd)
         res.send({
             status: "success",
-            message: "Login successful"
+            message: "Login successfulll..."
         });
     else
         res.send({
